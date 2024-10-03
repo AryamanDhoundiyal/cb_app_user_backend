@@ -23,10 +23,10 @@ app.use(cors());
 // });
 
 const db = mysql.createConnection({
-  host: process.env.DB_HOST || 'localhost',
-  user: process.env.DB_USER || 'u364371471_cbbuilder',
-  password: process.env.DB_PASSWORD || 'Aryaman1701??', 
-  database: process.env.DB_NAME || 'u364371471_cb_app'  
+  host: process.env.DB_HOST || 'bfguvictib4akz1tjfoa-mysql.services.clever-cloud.com',
+  user: process.env.DB_USER || 'uuysgzzevec0xugh',
+  password: process.env.DB_PASSWORD || 'AMgTm7oJh6Zn70AjleXr', 
+  database: process.env.DB_NAME || 'bfguvictib4akz1tjfoa'  
 });
 
 db.connect(err => {
